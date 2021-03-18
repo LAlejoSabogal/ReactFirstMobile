@@ -1,0 +1,50 @@
+.headerContent{
+    position: relative;
+    height: 295px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    text-align: center;
+    color: var(--LightColor);
+    padding-right: 1.6rem;
+    padding-left: 1.6rem;
+}
+.branch{
+    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--PrimaryColor);
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: -0.035rem;
+}
+.imgBranch{
+    padding-right: 0.6rem;
+}
+h1{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    margin-top: 3.3rem;
+    margin-bottom: 2.4rem;
+}
+.buttonHeader{
+    padding: 1.2rem 1.6rem;
+    height: 48px;
+    width: 229px;
+
+    position: absolute;
+    left: calc(50% - 114.5px);
+    bottom: -24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #FAF8F7;
+    color: var(--DarkColor);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 4px;
+    
+    font-weight: bold;
+}

@@ -1,6 +1,11 @@
+//Components
+import HeaderContent from "./components/header/HeaderContent";
+
 function App() {
   return (
-    <h1>Hola Mundo</h1>
+    <>
+      <HeaderContent />
+    </>
   );
 }
 
