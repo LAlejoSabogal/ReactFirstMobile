@@ -1,5 +1,7 @@
 :root{
   --PrimaryColor: #F7931A;
+  --SecondaryColor: #808080;
+  --TertiaryColor: #282623;
   --DarkColor: #201E1C;
   --LightColor: #FFF;
 }
@@ -26,4 +28,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h2{
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
 }

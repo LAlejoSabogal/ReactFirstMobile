@@ -2,6 +2,8 @@ import React from 'react'
 //Constants
 import TEXT from 'constants/stringConstants'
 import BENEFITS from 'constants/benefitsCosntants'
+//Style
+import 'components/benefits/BenefitsStyle.css'
 
 const BenefitsContent = () => {
 
@@ -11,17 +13,17 @@ const BenefitsContent = () => {
                 <div className="card" key={i}>
                     {console.log(e.logo)}
                     <img src={e.logo}  alt=""/>
-                    <p>{e.title}</p>
-                    <p>{e.description}</p>
+                    <p className="cardTitle">{e.title}</p>
+                    <p className="cardDescription">{e.description}</p>
                 </div>
             )
         })
     
 
     return (
-        <section>
+        <section className="benefitContent">
             <h2>{TEXT.benefits.title}</h2>
-            <p>{TEXT.benefits.subtitle}</p>
+            <p className="subtittle">{TEXT.benefits.subtitle}</p>
             {benefitCards}
         </section>
     )
