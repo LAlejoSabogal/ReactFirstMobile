@@ -4,7 +4,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 //Constants
 import TEXT from '../../constants/stringConstants'
 //Styles
-import './HeaderComponentStyle.css'
+import './HeaderStyle.css'
 //images
 import Batatabit from '../../images/batatabit.png'
 
