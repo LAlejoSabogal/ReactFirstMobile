@@ -1,0 +1,16 @@
+.AdvertisingBannerContent{
+    background-image: url('images/bitcoinbaby.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 387px;
+    width: 100%;
+    color: var(--LightColor);
+    padding-top: 6.4rem;
+}
+.title{
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+}

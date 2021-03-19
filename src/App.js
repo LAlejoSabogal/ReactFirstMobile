@@ -2,6 +2,7 @@
 import HeaderContent from "components/header/HeaderContent";
 import ExchangeRateComponent from "components/exchangeRate/ExchangeRateComponent";
 import BenefitsContent from "components/benefits/BenefitsContent";
+import AdvertisingBannerContent from "components/advertisingBanner/AdvertisingBannerContent";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <HeaderContent />
       <ExchangeRateComponent />
       <BenefitsContent />
+      <AdvertisingBannerContent />
     </>
   );
 }
