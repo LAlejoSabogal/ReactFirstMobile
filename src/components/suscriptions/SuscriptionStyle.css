@@ -1,0 +1,11 @@
+.suscriptionContent{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.suscriptionContent::-webkit-scrollbar {
+    display: none;
+  }

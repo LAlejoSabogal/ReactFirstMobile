@@ -21,12 +21,14 @@ const TEXT = {
     AdvertisingBanner:{
         title: "Conócelo hoy",
     },
-    subscriptions: {
+    suscriptions: {
         title: "Escoge el plan que mejor se ajuste a ti.",
         subtitle: "Cualquier plan te da acceso completo a nuestra plataforma.",
+        stickyNote: "Recomendado",
+        buttonText: "Escoger éste"
     },
     questions:{
-        title: "¿Preguntas? Aquí estamos para ti."
+        title: "¿Preguntas? Aquí estamos para ti.",
     },
     footer:{
         linkedin: "LinkedIn",

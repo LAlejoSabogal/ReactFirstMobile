@@ -1,0 +1,80 @@
+.cardContent{
+    position: relative;
+    min-width: 190px;
+    max-width: 223px;
+    height: 247px;
+    background-color: var(--LightColor);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    margin: 5rem 0.8rem 6.4rem;
+    padding-top: 3.1rem;
+}
+.cardContent__infoStick{
+    width: 101px;
+    height: 31px;
+    background-color: var(--PrimaryColor);
+    border-radius: 0.8rem;
+    color: var(--LightColor);
+    
+    position: absolute;
+    top: -15.5px;
+    left: calc(50% - 50.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2rem;
+    line-height: 1.45rem;
+    text-align: center;
+}
+.cardContent__title{
+    margin: 0 auto 1.7rem;
+    font-size: 1.4rem;
+    color: var(--DarkColor)
+}
+.cardContent__valueContent{
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.cardContent__value{
+    font-size: 5.2rem;
+    line-height: 80%;
+    font-weight: bold;
+}
+.cardContent__description{
+    margin: 1.8rem 1.6rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--TertiaryColor);
+}
+.cardContent__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 151px;
+    height: 48px;
+    position: absolute;
+    bottom: 2.4rem;
+    left: calc(50% - 75.5px);
+    border: 2px solid;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+.cardContent__button--active{
+    background-color: var(--OffWhite);
+    border-color: var(--PrimaryColor);
+    color: var(--PrimaryColor);
+}
+.cardContent__button--active p{
+    color: var(--DarkColor);
+}
+.cardContent__button--disable{
+    background-color: var(--LightColor);
+    border-color: var(--SecondaryColor);
+    color: var(--SecondaryColor);
+}
