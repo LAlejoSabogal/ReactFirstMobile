@@ -1,0 +1,8 @@
+.sectionContent{
+    margin: 3.2rem 1.6rem;
+}
+.sectionContent h2{
+    margin: 0;
+    padding:3.2rem 0;
+    color: var(--DarkColor)
+}

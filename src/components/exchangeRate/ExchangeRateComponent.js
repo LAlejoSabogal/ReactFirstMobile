@@ -23,7 +23,7 @@ const ExchangeRateComponent = () => {
                                     item
                                     xs={6}
                                     alignContent="center"
-                                    justify="start"
+                                    justify="flex-start"
                                 >
                                     {ee.name}
                                 </Grid>

@@ -11,7 +11,6 @@ const BenefitsContent = () => {
         BENEFITS.map((e, i) => {
             return(
                 <div className="card" key={i}>
-                    {console.log(e.logo)}
                     <img src={e.logo}  alt=""/>
                     <p className="cardTitle">{e.title}</p>
                     <p className="cardDescription">{e.description}</p>
