@@ -29,6 +29,9 @@ const TEXT = {
         title: "¿Preguntas? Aquí estamos para ti."
     },
     footer:{
+        linkedin: "LinkedIn",
+        crunchbase: "Crunchbase",
+        hackernews: "Hackernews",
         copyRight: "® Batatabit 2020",
     }
 }

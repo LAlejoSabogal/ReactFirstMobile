@@ -1,0 +1,9 @@
+.footerContent{
+    height: 150px;
+    background-color: var(--PrimaryColor);
+    color: var(--LightColor);
+    font-weight: 500;
+}
+.gridContainer{
+    height: 100%;
+}
