@@ -24,8 +24,17 @@ h2{
     border-radius: 0.8rem;
 }
 .tableBody{
+    display: block;
     font-family: Inter;
     max-width: 60vw;
-    min-width: 196px;
+    min-width: 200px;
     margin: 1.2rem auto 1.6rem;
+    background-color: var(--LightColor);
+    border-radius: 0.8rem;
+}
+.tableBody--hidden{
+    display: none;
+}
+.tableBody__cell{
+    padding: 1rem 1.2rem;
 }
