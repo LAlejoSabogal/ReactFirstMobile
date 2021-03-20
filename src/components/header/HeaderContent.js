@@ -11,16 +11,18 @@ import Batatabit from '../../images/batatabit.png'
 const HeaderContent = () => {
     return (
         <header className="headerContent">
-            <div className="branch">
+            <div className="headerContent__branch">
                 <div>
-                    <img src={Batatabit} alt="Batatabit Logo" className="imgBranch" />
+                    <img src={Batatabit} alt="Batatabit Logo" className="headerContent__imgBranch" />
                 </div>
                 <div>
                     {TEXT.branch.nameBranch}
                 </div>
             </div>
-            <h1>{TEXT.headerContent.title}</h1>
-            <p>{TEXT.headerContent.subtitle}</p>
+            <div className="headerContent__text">
+                <h1>{TEXT.headerContent.title}</h1>
+                <p className="headerContent__subtitle">{TEXT.headerContent.subtitle}</p>
+            </div>
             <div className="buttonHeader">
                 <div>
                     {TEXT.headerContent.buttonText}
