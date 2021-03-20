@@ -2,11 +2,11 @@ import React from 'react'
 //Components
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 //Constants
-import TEXT from '../../constants/stringConstants'
+import TEXT from 'constants/stringConstants'
 //Styles
-import './HeaderStyle.css'
+import 'components/header/HeaderStyle.css'
 //images
-import Batatabit from '../../images/batatabit.png'
+import Batatabit from 'images/batatabit.png'
 
 const HeaderContent = () => {
     return (
