@@ -15,6 +15,10 @@
     font-weight: 500;
     color: var(--SecondaryColor);
 }
+.benefitContent__gridContainer{
+    max-width: 724px;
+    margin: auto;
+}
 .benefitContent__card{
     background-color: var(--TertiaryColor);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);

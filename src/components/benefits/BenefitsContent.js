@@ -32,9 +32,11 @@ const BenefitsContent = () => {
                 <h2 className="benefitContent__title">{TEXT.benefits.title}</h2>
                 <p className="benefitContent__subtittle">{TEXT.benefits.subtitle}</p>
             </div>
-            <Grid container spacing={1}>
-                {benefitCards}
-            </Grid>
+            <div className="benefitContent__gridContainer">
+                <Grid container spacing={1}>
+                    {benefitCards}
+                </Grid>
+            </div>
         </section>
     )
 }
