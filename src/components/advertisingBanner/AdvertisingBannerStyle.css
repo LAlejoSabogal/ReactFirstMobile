@@ -1,16 +1,36 @@
-.AdvertisingBannerContent{
+.advertisingBannerContent{
+    display: flex;
+    justify-content: center;
     background-image: url('images/bitcoinbaby.png');
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     height: 387px;
-    width: 100%;
     color: var(--LightColor);
-    padding-top: 6.4rem;
 }
-.title{
-    margin: 0;
+.advertisingBannerContent__title{
+    margin-top: 6.4rem;
     font-size: 2.4rem;
     line-height: 2.6rem;
     font-weight: bold;
+}
+/* media queries */
+@media (min-width: 370px){
+    .advertisingBannerContent__title{
+        line-height: 4rem;
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+}
+@media (min-width: 516px){
+    .advertisingBannerContent{
+        background-image: url('images/bitcoinbaby2.png');
+        align-items: center;
+        height: 299px;
+        width: 100%;
+        
+    }
+    .advertisingBannerContent__title{
+        margin: 0;
+    }
 }
