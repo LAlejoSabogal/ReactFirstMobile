@@ -13,6 +13,7 @@
 .suscriptionContent__cardContainer{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: flex-start;
     overflow-x: auto;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -31,5 +32,8 @@
     .suscriptionContent__subtitle{
         font-size: 2rem;
         line-height: 2.4rem;
+    }
+    .suscriptionContent__cardContainer{
+        justify-content: center;
     }
 }
