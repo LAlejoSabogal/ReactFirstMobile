@@ -35,8 +35,10 @@ const QuestionsContent = () => {
 
     return (
         <section className="sectionContent">
-            <h2>{TEXT.questions.title}</h2>
-            {accordionPanel}
+            <div className="sectionContent__container">
+                <h2 className="sectionContent__title">{TEXT.questions.title}</h2>
+                {accordionPanel}
+            </div>
         </section>
     )
 }

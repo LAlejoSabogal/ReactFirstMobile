@@ -1,8 +1,21 @@
 .sectionContent{
     margin: 3.2rem 1.6rem;
 }
-.sectionContent h2{
+.sectionContent__container{
+    margin: auto;
+    max-width: 466px;
+    text-align: left;
+}
+.sectionContent__title{
     margin: 0;
     padding:3.2rem 0;
-    color: var(--DarkColor)
+    color: var(--DarkColor);
+    text-align: center;
+}
+/* Media Queries */
+@media (min-width: 600px){
+    .sectionContent__title{
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
 }
