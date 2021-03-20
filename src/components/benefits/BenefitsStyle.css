@@ -35,3 +35,15 @@
     margin: 0;
     font-weight: 500;
 }
+
+/*media queries*/
+@media (min-width: 600px){
+    .benefitContent__title{
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    .benefitContent__subtittle{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+}

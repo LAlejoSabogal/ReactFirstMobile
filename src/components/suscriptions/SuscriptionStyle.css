@@ -1,4 +1,16 @@
-.suscriptionContent{
+.suscriptionContent_text{
+    max-width: 466px;
+    margin: auto;
+}
+.suscriptionContent__title{
+    margin-top: 8rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+}
+.suscriptionContent__subtitle{
+    margin-top: 2.4rem;
+}
+.suscriptionContent__cardContainer{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -8,4 +20,16 @@
 }
 .suscriptionContent::-webkit-scrollbar {
     display: none;
-  }
+}
+
+/*media queries*/
+@media (min-width: 600px){
+    .suscriptionContent__title{
+        font-size: 4rem;
+        line-height: 4.2rem;
+    }
+    .suscriptionContent__subtitle{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+}

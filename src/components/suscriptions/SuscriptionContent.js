@@ -1,6 +1,7 @@
 import React from 'react'
 //Constants
 import SUSCRIPTIONS from 'constants/suscriptionAreas'
+import TEXT from 'constants/stringConstants'
 //Components
 import CardContent from 'components/cards/CardContent'
 //Style
@@ -10,9 +11,8 @@ const SuscriptionContent = () => {
 
     const cardContent = SUSCRIPTIONS.map((e,i)=>{
         return(
-            <div>
+            <div key ={i}>
                 <CardContent
-                    key ={i}
                     recomendado= {e.price === 49 ? true: false}
                     title= {e.name}
                     value= {e.price}
@@ -23,7 +23,13 @@ const SuscriptionContent = () => {
     })
     return (
         <section className="suscriptionContent">
-            {cardContent}
+            <div className="suscriptionContent_text">
+                <h2 className="suscriptionContent__title">{TEXT.suscriptions.title}</h2>
+                <p className="suscriptionContent__subtitle">{TEXT.suscriptions.subtitle}</p>
+            </div>
+            <div className="suscriptionContent__cardContainer">
+                {cardContent}
+            </div>
         </section>
     )
 }
